@@ -1,0 +1,8 @@
+.tours-list ul {
+    font-size: 12px;
+    padding-left: 15px;
+}
+.tours-list a {
+    color: #215c1c;
+    font-weight: bold;
+}

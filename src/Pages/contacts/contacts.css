@@ -1,0 +1,41 @@
+.Contacts {
+    min-height: 75vh;
+}
+.contacts-img img {
+    width: 75%;
+    border-radius: 25px;
+    margin-left: 25%;
+}
+.Alex-info p {
+    font-weight: bold;
+}
+.Alex-info .viber:hover {
+    color: #215c1c;
+}
+.no-name {
+    display: none;
+}
+.Alex-contacts {
+    text-align: center;
+}
+.Alex-contacts p {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+    .Alex-info {
+        font-size: 14px;
+    }
+    .contacts-img {
+        margin-bottom: 10px;
+    }
+    .contacts-img img {
+        width: 50%;
+    }
+    .no-name {
+        display: block;
+    }
+    .Alex-info h3 {
+        display: none;
+    }
+}

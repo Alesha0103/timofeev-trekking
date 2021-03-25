@@ -1,0 +1,58 @@
+.contact-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.contact-btn {
+  display: block;
+  margin: 15px auto;
+  width: 250px;
+}
+
+.contact-grid label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-group {
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 5px;
+  outline: 0;
+}
+
+.badClass {
+  border: 3px solid red;
+  border-radius: 10px;
+}
+
+.contact-grid_checkbox {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.success-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.error-form {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .contact-grid {
+    width: 90%;
+    font-size: 14px;
+  }
+}

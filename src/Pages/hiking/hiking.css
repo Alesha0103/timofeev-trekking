@@ -1,0 +1,126 @@
+.hike-data {
+    display: flex;
+    flex-direction: column;
+}
+.hike-data p {
+    margin: 0px;
+}
+.margin-50 {
+    margin: 50px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: dimgray;
+}
+a {
+    color: black;
+    text-decoration: none;    
+}
+.nav-pills .nav-link {
+    text-align: left;
+}
+
+.hikes-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0px 0px;
+}
+.hikes-img {
+    width: 300px;
+    height: 225px;
+}
+.hikes-content {
+    max-width: 370px;
+    padding: 0 15px;
+}
+
+.hikes-about {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    width: 124px;
+    padding: 15px;
+    height: min-content;
+}
+.hikes-about p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.about-btn {
+    margin-top: 10px;
+    font-size: 11px;
+}
+.px12 {
+    font-size: 14px;
+}
+
+.line {
+    text-align: center;
+    padding: 10px 0 10px 150px;
+    border-bottom: 1px solid #343a40;
+    color: #215c1c;
+    font-style: italic;
+}
+.hikes-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.none {
+    display: none;
+    margin-bottom: 20px;
+    width: 370px;
+}
+
+@media (max-width: 1199px) {
+    .hikes-card {
+        margin-top: 15px;
+    }
+    .hikes-content {
+        margin-top: 15px;
+        max-width: 660px;
+    }
+    .hikes-about p {
+        display: block;
+    }
+    .hikes-content h4 {
+        display: none;
+    }
+    .none {
+        display: block;
+    }
+    .hikes-img {
+        max-width: 300px;
+        padding: 0 15px;
+    }
+    .hikes-img img{
+        width: none;
+    }
+    .line {
+        margin-top: 20px;
+        padding: 0 0 10px;
+    }
+    .hikes-about {
+        text-align: center;
+        justify-content: center;
+        border-radius: 0px;
+        width: 100%;
+        padding: 15px;
+    }
+    .about-btn {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 1199px) {
+    .hikes-about {
+        border-radius: 10px;
+        width: 60%;
+        padding: 15px;
+    }
+}

@@ -1,0 +1,10 @@
+a:hover {
+    color: #215c1c;
+    text-decoration: underline;
+}
+
+.bag {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+};

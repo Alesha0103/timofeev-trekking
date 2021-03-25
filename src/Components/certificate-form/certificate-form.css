@@ -1,0 +1,35 @@
+.certificate-grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.certificate-grid label {
+  font-size: 16px;
+  font-weight: bold;
+}
+.certificate-grid_checkbox {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.certificate-grid_checkbox input {
+  width: 90%;
+  text-align: center;
+}
+.success-form_certificate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  height: 75%;
+  margin-top: 25px;
+}

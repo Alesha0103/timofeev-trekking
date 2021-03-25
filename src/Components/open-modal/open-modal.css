@@ -1,0 +1,42 @@
+.myModal {
+    display: none;
+
+    width: 80%;
+    max-width: 750px;   
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+}
+.overlay {
+    display: none;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .9);
+    z-index: 20;
+}
+
+.myModal .carousel-control-next {
+    right: -15%;
+}
+.myModal .carousel-control-prev {
+    left: -15%;
+}
+.myModal .carousel-indicators {
+    bottom: -40px;
+    /* display: none; */
+}
+.myModal .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 20px;
+}
